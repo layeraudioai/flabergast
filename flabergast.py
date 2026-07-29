@@ -3,7 +3,7 @@ import re
 import argparse
 
 # Configuration
-ROOT_DIR = r"K:\yolor3\src\gtest"
+ROOT_DIR = r"."
 INCLUDE_REGEX = re.compile(r'#include\s+"([^"]+)"')
 # Persistent storage for "Apply to All" choices
 CHOICE_CACHE = {}
